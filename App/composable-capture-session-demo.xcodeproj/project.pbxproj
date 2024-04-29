@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1BFFAF2BDA9032008AC8A1 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BFFAE2BDA9032008AC8A1 /* DemoApp.swift */; };
+		1F1BFFB12BDA9032008AC8A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BFFB02BDA9032008AC8A1 /* ContentView.swift */; };
+		1F1BFFB32BDA9033008AC8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1BFFB22BDA9033008AC8A1 /* Assets.xcassets */; };
+		1F1BFFB72BDA9033008AC8A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1BFFB62BDA9033008AC8A1 /* Preview Assets.xcassets */; };
+		1F1BFFC12BDA9033008AC8A1 /* composable_capture_session_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BFFC02BDA9033008AC8A1 /* composable_capture_session_demoTests.swift */; };
+		1F1BFFCB2BDA9033008AC8A1 /* composable_capture_session_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BFFCA2BDA9033008AC8A1 /* composable_capture_session_demoUITests.swift */; };
+		1F1BFFCD2BDA9033008AC8A1 /* composable_capture_session_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BFFCC2BDA9033008AC8A1 /* composable_capture_session_demoUITestsLaunchTests.swift */; };
+		1F2FA8A92BDA94F300C5DBDD /* composable-avcapture-session in Frameworks */ = {isa = PBXBuildFile; productRef = 1F2FA8A82BDA94F300C5DBDD /* composable-avcapture-session */; };
+		1F2FA8AC2BDA9B8400C5DBDD /* Nested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FA8AB2BDA9B8400C5DBDD /* Nested.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F1BFFBD2BDA9033008AC8A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1BFFA32BDA9032008AC8A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1BFFAA2BDA9032008AC8A1;
+			remoteInfo = "composable-capture-session-demo";
+		};
+		1F1BFFC72BDA9033008AC8A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1BFFA32BDA9032008AC8A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1BFFAA2BDA9032008AC8A1;
+			remoteInfo = "composable-capture-session-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F1BFFAB2BDA9032008AC8A1 /* composable-capture-session-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "composable-capture-session-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1BFFAE2BDA9032008AC8A1 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
+		1F1BFFB02BDA9032008AC8A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F1BFFB22BDA9033008AC8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F1BFFB42BDA9033008AC8A1 /* composable_capture_session_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = composable_capture_session_demo.entitlements; sourceTree = "<group>"; };
+		1F1BFFB62BDA9033008AC8A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F1BFFBC2BDA9033008AC8A1 /* composable-capture-session-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "composable-capture-session-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1BFFC02BDA9033008AC8A1 /* composable_capture_session_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = composable_capture_session_demoTests.swift; sourceTree = "<group>"; };
+		1F1BFFC62BDA9033008AC8A1 /* composable-capture-session-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "composable-capture-session-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1BFFCA2BDA9033008AC8A1 /* composable_capture_session_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = composable_capture_session_demoUITests.swift; sourceTree = "<group>"; };
+		1F1BFFCC2BDA9033008AC8A1 /* composable_capture_session_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = composable_capture_session_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F2FA8A22BDA93F200C5DBDD /* compsable-avcapture-session */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "compsable-avcapture-session"; path = ..; sourceTree = "<group>"; };
+		1F2FA8AA2BDA9A6E00C5DBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1F2FA8AB2BDA9B8400C5DBDD /* Nested.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nested.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1BFFA82BDA9032008AC8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2FA8A92BDA94F300C5DBDD /* composable-avcapture-session in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1BFFB92BDA9033008AC8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1BFFC32BDA9033008AC8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1BFFA22BDA9032008AC8A1 = {
+			isa = PBXGroup;
+			children = (
+				1F2FA8A22BDA93F200C5DBDD /* compsable-avcapture-session */,
+				1F1BFFAD2BDA9032008AC8A1 /* composable-capture-session-demo */,
+				1F1BFFBF2BDA9033008AC8A1 /* composable-capture-session-demoTests */,
+				1F1BFFC92BDA9033008AC8A1 /* composable-capture-session-demoUITests */,
+				1F1BFFAC2BDA9032008AC8A1 /* Products */,
+				1F2FA8A32BDA93FC00C5DBDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F1BFFAC2BDA9032008AC8A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1BFFAB2BDA9032008AC8A1 /* composable-capture-session-demo.app */,
+				1F1BFFBC2BDA9033008AC8A1 /* composable-capture-session-demoTests.xctest */,
+				1F1BFFC62BDA9033008AC8A1 /* composable-capture-session-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F1BFFAD2BDA9032008AC8A1 /* composable-capture-session-demo */ = {
+			isa = PBXGroup;
+			children = (
+				1F2FA8AA2BDA9A6E00C5DBDD /* Info.plist */,
+				1F1BFFAE2BDA9032008AC8A1 /* DemoApp.swift */,
+				1F1BFFB02BDA9032008AC8A1 /* ContentView.swift */,
+				1F1BFFB22BDA9033008AC8A1 /* Assets.xcassets */,
+				1F1BFFB42BDA9033008AC8A1 /* composable_capture_session_demo.entitlements */,
+				1F1BFFB52BDA9033008AC8A1 /* Preview Content */,
+				1F2FA8AB2BDA9B8400C5DBDD /* Nested.swift */,
+			);
+			path = "composable-capture-session-demo";
+			sourceTree = "<group>";
+		};
+		1F1BFFB52BDA9033008AC8A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F1BFFB62BDA9033008AC8A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F1BFFBF2BDA9033008AC8A1 /* composable-capture-session-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F1BFFC02BDA9033008AC8A1 /* composable_capture_session_demoTests.swift */,
+			);
+			path = "composable-capture-session-demoTests";
+			sourceTree = "<group>";
+		};
+		1F1BFFC92BDA9033008AC8A1 /* composable-capture-session-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F1BFFCA2BDA9033008AC8A1 /* composable_capture_session_demoUITests.swift */,
+				1F1BFFCC2BDA9033008AC8A1 /* composable_capture_session_demoUITestsLaunchTests.swift */,
+			);
+			path = "composable-capture-session-demoUITests";
+			sourceTree = "<group>";
+		};
+		1F2FA8A32BDA93FC00C5DBDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1BFFAA2BDA9032008AC8A1 /* composable-capture-session-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1BFFD02BDA9033008AC8A1 /* Build configuration list for PBXNativeTarget "composable-capture-session-demo" */;
+			buildPhases = (
+				1F1BFFA72BDA9032008AC8A1 /* Sources */,
+				1F1BFFA82BDA9032008AC8A1 /* Frameworks */,
+				1F1BFFA92BDA9032008AC8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "composable-capture-session-demo";
+			packageProductDependencies = (
+				1F2FA8A82BDA94F300C5DBDD /* composable-avcapture-session */,
+			);
+			productName = "composable-capture-session-demo";
+			productReference = 1F1BFFAB2BDA9032008AC8A1 /* composable-capture-session-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F1BFFBB2BDA9033008AC8A1 /* composable-capture-session-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1BFFD32BDA9033008AC8A1 /* Build configuration list for PBXNativeTarget "composable-capture-session-demoTests" */;
+			buildPhases = (
+				1F1BFFB82BDA9033008AC8A1 /* Sources */,
+				1F1BFFB92BDA9033008AC8A1 /* Frameworks */,
+				1F1BFFBA2BDA9033008AC8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1BFFBE2BDA9033008AC8A1 /* PBXTargetDependency */,
+			);
+			name = "composable-capture-session-demoTests";
+			productName = "composable-capture-session-demoTests";
+			productReference = 1F1BFFBC2BDA9033008AC8A1 /* composable-capture-session-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F1BFFC52BDA9033008AC8A1 /* composable-capture-session-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1BFFD62BDA9033008AC8A1 /* Build configuration list for PBXNativeTarget "composable-capture-session-demoUITests" */;
+			buildPhases = (
+				1F1BFFC22BDA9033008AC8A1 /* Sources */,
+				1F1BFFC32BDA9033008AC8A1 /* Frameworks */,
+				1F1BFFC42BDA9033008AC8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1BFFC82BDA9033008AC8A1 /* PBXTargetDependency */,
+			);
+			name = "composable-capture-session-demoUITests";
+			productName = "composable-capture-session-demoUITests";
+			productReference = 1F1BFFC62BDA9033008AC8A1 /* composable-capture-session-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F1BFFA32BDA9032008AC8A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1F1BFFAA2BDA9032008AC8A1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					1F1BFFBB2BDA9033008AC8A1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1F1BFFAA2BDA9032008AC8A1;
+					};
+					1F1BFFC52BDA9033008AC8A1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1F1BFFAA2BDA9032008AC8A1;
+					};
+				};
+			};
+			buildConfigurationList = 1F1BFFA62BDA9032008AC8A1 /* Build configuration list for PBXProject "composable-capture-session-demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F1BFFA22BDA9032008AC8A1;
+			productRefGroup = 1F1BFFAC2BDA9032008AC8A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1BFFAA2BDA9032008AC8A1 /* composable-capture-session-demo */,
+				1F1BFFBB2BDA9033008AC8A1 /* composable-capture-session-demoTests */,
+				1F1BFFC52BDA9033008AC8A1 /* composable-capture-session-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F1BFFA92BDA9032008AC8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1BFFB72BDA9033008AC8A1 /* Preview Assets.xcassets in Resources */,
+				1F1BFFB32BDA9033008AC8A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1BFFBA2BDA9033008AC8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1BFFC42BDA9033008AC8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1BFFA72BDA9032008AC8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1BFFB12BDA9032008AC8A1 /* ContentView.swift in Sources */,
+				1F1BFFAF2BDA9032008AC8A1 /* DemoApp.swift in Sources */,
+				1F2FA8AC2BDA9B8400C5DBDD /* Nested.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1BFFB82BDA9033008AC8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1BFFC12BDA9033008AC8A1 /* composable_capture_session_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1BFFC22BDA9033008AC8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1BFFCD2BDA9033008AC8A1 /* composable_capture_session_demoUITestsLaunchTests.swift in Sources */,
+				1F1BFFCB2BDA9033008AC8A1 /* composable_capture_session_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F1BFFBE2BDA9033008AC8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1BFFAA2BDA9032008AC8A1 /* composable-capture-session-demo */;
+			targetProxy = 1F1BFFBD2BDA9033008AC8A1 /* PBXContainerItemProxy */;
+		};
+		1F1BFFC82BDA9033008AC8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1BFFAA2BDA9032008AC8A1 /* composable-capture-session-demo */;
+			targetProxy = 1F1BFFC72BDA9033008AC8A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F1BFFCE2BDA9033008AC8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F1BFFCF2BDA9033008AC8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1F1BFFD12BDA9033008AC8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "composable-capture-session-demo/composable_capture_session_demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"composable-capture-session-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9NN3JTU6E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "composable-capture-session-demo/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to allow you to take a picture";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jefflewis.composable-capture-session-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F1BFFD22BDA9033008AC8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "composable-capture-session-demo/composable_capture_session_demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"composable-capture-session-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9NN3JTU6E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "composable-capture-session-demo/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to allow you to take a picture";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jefflewis.composable-capture-session-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F1BFFD42BDA9033008AC8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9NN3JTU6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jefflewis.composable-capture-session-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/composable-capture-session-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/composable-capture-session-demo";
+			};
+			name = Debug;
+		};
+		1F1BFFD52BDA9033008AC8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9NN3JTU6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jefflewis.composable-capture-session-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/composable-capture-session-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/composable-capture-session-demo";
+			};
+			name = Release;
+		};
+		1F1BFFD72BDA9033008AC8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9NN3JTU6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jefflewis.composable-capture-session-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "composable-capture-session-demo";
+			};
+			name = Debug;
+		};
+		1F1BFFD82BDA9033008AC8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9NN3JTU6E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jefflewis.composable-capture-session-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "composable-capture-session-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1BFFA62BDA9032008AC8A1 /* Build configuration list for PBXProject "composable-capture-session-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1BFFCE2BDA9033008AC8A1 /* Debug */,
+				1F1BFFCF2BDA9033008AC8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1BFFD02BDA9033008AC8A1 /* Build configuration list for PBXNativeTarget "composable-capture-session-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1BFFD12BDA9033008AC8A1 /* Debug */,
+				1F1BFFD22BDA9033008AC8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1BFFD32BDA9033008AC8A1 /* Build configuration list for PBXNativeTarget "composable-capture-session-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1BFFD42BDA9033008AC8A1 /* Debug */,
+				1F1BFFD52BDA9033008AC8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1BFFD62BDA9033008AC8A1 /* Build configuration list for PBXNativeTarget "composable-capture-session-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1BFFD72BDA9033008AC8A1 /* Debug */,
+				1F1BFFD82BDA9033008AC8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F2FA8A82BDA94F300C5DBDD /* composable-avcapture-session */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "composable-avcapture-session";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1F1BFFA32BDA9032008AC8A1 /* Project object */;
+}
