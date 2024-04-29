@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
       .package(
         url: "https://github.com/pointfreeco/swift-composable-architecture.git",
-        branch: "shared-state-beta"
+        from: "1.10.0"
       ),
       .package(
         url: "https://github.com/pointfreeco/swift-custom-dump.git",
